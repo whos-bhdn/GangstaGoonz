@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://cdn.discordapp.com/attachments/976518370759417906/979800648579170314/New_Project_21.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 3;
+}
+
+.main-title {
+    color: black;
+    font-size: 60px;
+    font-family: 'Impact', serif;
+}
+
+.overlay {
+    width: 4%;
+    height: 100%;
+    position: relative;
+    z-index: 4;
+    transition: 2s linear;
+    background: url('https://cdn.discordapp.com/attachments/976518370759417906/978375529604481125/GGsnek.png') fixed center no-repeat;
+}
+.overlay:hover{
+    transition: 0s;
+    opacity: 0;
+    scale: 1;
+}
+
